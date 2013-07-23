@@ -1,44 +1,23 @@
-body
-{
-        background-image:url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn1/p480x480/65242_133263323551470_1975103289_n.jpg');
-        color:yellow;
-}
+<!DOCTYPE HTML>
 
-h1
-{
-        text-align:center;
-        font-size:30pt;
-        color:blue;
-}
-
-p
-{
-        text-align:center;
-        font-size:20pt;
-}
-
-#header
-{
-        background-color:black;
-        width:100%;
-        height:120px;
-        font-size:60pt;
-        text-align:center;
-        color:blue;
-}
-
-#leftcolumn
-{
-        background-color:blue;
-        color:black;
-        font-size:45pt;
-        width:20%;
-        height:700px;
-        margin-top:40px;
-        float:left;
-}
-
-a
-{
-	color:silver;
-}
+<html>
+<head><link rel="stylesheet" style="text/css" href="contact.css"></link>
+<title>John Love</title>
+<body>
+        <div id="header">John Love Portfolio</div>
+        <div id="leftcolumn">
+             	<p><a href="home.html">Main page</a></p>
+                <p><a href="portfolio.html">Portfolio</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="contact.html">Contact</a></p>
+                </div>
+        <div id="rightcolumn"></div>
+        <div id="footer"></div>
+        
+        
+        <h1>John Love</h1>
+        <a href="https://www.facebook.com/YGJLOVE">IM ON FACEBOOK</a>
+        <p> </p>
+        <img class="" src="" width="300" height="400"></img>
+</body>
+</html>
